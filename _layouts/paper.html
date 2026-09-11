@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} — Prior Art</title>
+  <link rel="canonical" href="https://prior-art.ahightower.com{{ page.url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --ink:#1b2a4a; --paper:#f7f4ee; --rule:#c4a35a; --muted:#5c6578; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:"Source Sans 3", sans-serif; line-height:1.55; }
+    nav { background:#15233d; color:#f7f4ee; padding:0.85rem 1.25rem; font-size:0.9rem; }
+    nav a { color:#f7f4ee; text-decoration:none; }
+    main { max-width:42rem; margin:0 auto; padding:1.5rem 1.25rem 3rem; }
+    .paper h1 { font-family:"Libre Baskerville", serif; font-size:1.7rem; line-height:1.25; margin:0 0 0.8rem; }
+    .paper h2 { font-family:"Libre Baskerville", serif; font-size:1.2rem; margin:1.6rem 0 0.5rem; }
+    .paper hr { border:0; border-top:1px solid #ddd6c8; margin:1.2rem 0; }
+    .paper code, .paper pre { font-family:ui-monospace,monospace; font-size:0.86em; }
+    .paper pre { background:#efeae0; padding:0.8rem 1rem; overflow:auto; }
+    .paper blockquote { margin:1rem 0; padding-left:1rem; border-left:3px solid var(--rule); color:#333; }
+    .paper ul { padding-left:1.2rem; }
+    .meta { color:var(--muted); font-size:0.85rem; margin:1.5rem 0 0; }
+    .meta a { color:#1a4f8b; }
+  </style>
+</head>
+<body>
+  <nav><a href="/">Prior Art</a></nav>
+  <main>
+    <article class="paper">
+      {{ content }}
+    </article>
+    <p class="meta">Canonical frozen file: <a href="DISCLOSURE.md">DISCLOSURE.md</a>. Do not edit it.</p>
+  </main>
+</body>
+</html>

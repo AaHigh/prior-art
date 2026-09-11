@@ -1,0 +1,6 @@
+title: Prior Art
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude:
+  - "*.zip"
